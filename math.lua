@@ -1,18 +1,3 @@
-pi=math.pi
-tau=pi*2
-max=math.max
-min=math.min
-sin=math.sin
-cos=math.cos
-exp=math.exp
-abs=math.abs
-sqrt=math.sqrt
-flr=math.floor
-ceil=math.ceil
-str=string.format
-to=table.insert
-del=table.remove
-sort=table.sort
 angle=function(x,y)return math.atan2(y,x)end
 
 function makeint(f)--thanks i hate it
