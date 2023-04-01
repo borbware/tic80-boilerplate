@@ -1,0 +1,6 @@
+/.local
+/build/
+*.gif
+*.png
+*.wav
+/game.lua

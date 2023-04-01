@@ -1,0 +1,1 @@
+tic80-pro-1.0.exe --fs . --cmd="load main.lua"
