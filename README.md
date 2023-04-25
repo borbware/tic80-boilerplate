@@ -52,7 +52,7 @@ Note that this is only needed if you get the error `module 'libs/math' not found
 
 When you add a new file:
 * Add a new require statement for it in `main.lua`
-* Add the file to `luacc.sh` so the executable works as well.
+* Add the file to `luacc.sh` so the built executable works as well (see [Building an executable](#building-an-executable) below).
 
 ## Running
 
@@ -60,6 +60,6 @@ Run `runtic80.bat` in the command line. It runs `main.lua` on TIC-80 from the co
 
 The savefiles are located under the project folder in the `.local` directory.
 
-## Building
+## Building an executable
 
 Run `buildWin.bat <version>` (e.g., `buildWin.bat 1.0`). It creates a `game.lua` file that contains all the code, and then creates a new Windows build of the game in the `/build/` folder.
