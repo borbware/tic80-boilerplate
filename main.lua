@@ -21,7 +21,7 @@ function TIC()
 
 	cls(13)
 	spr(1+t%60//30*2,x,y,14,3,0,0,2,2)
-	print("HELLO WORLD!",84,84)
+	print("Wishlist EMUUROM!",70,84)
 	t=t+1
 end
 

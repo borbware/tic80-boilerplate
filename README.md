@@ -62,4 +62,12 @@ The savefiles are located under the project folder in the `.local` directory.
 
 ## Building an executable
 
-Run `buildWin.bat <version>` (e.g., `buildWin.bat 1.0`). It creates a `game.lua` file that contains all the code, and then creates a new Windows build of the game in the `/build/` folder.
+To create a Windows build, run `buildWin.bat <version>` (e.g., `buildWin.bat 1.0`). 
+
+By running the `luacc.sh` script, it creates a `game.lua` file - a bundle that contains all the code files in one.
+
+Then, it creates a new `TIC-80-boilerplate-<version>.exe` file in the `/build/` folder.
+
+***Note:*** You can set the name of the game to something else in the buildWin.bat file.
+
+***Note 2:*** Tos create Mac and Linux builds, run the `buildAll.bat <version>` script instead!
