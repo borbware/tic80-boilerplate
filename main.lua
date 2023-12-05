@@ -3,12 +3,15 @@
 -- desc:   short description
 -- script: lua
 
-package.path = package.path..";Q:/github/tic80-boilerplate/?.lua"
+package.path=package.path..";Q:/github/tic80-boilerplate/?.lua"
 
-require "libs/math"
-require "libs/string"
-require "libs/table"
-require "libs/consts"
+require"ext/profile/profile"
+require"ext/utf8/utf8"
+
+require"libs/math"
+require"libs/string"
+require"libs/table"
+require"libs/consts"
 
 
 t=0
@@ -16,7 +19,6 @@ x=0
 y=24
 
 function TIC()
-
 	x=lerp(0,200,t/200)
 
 	cls(13)
